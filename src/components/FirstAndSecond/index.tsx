@@ -36,7 +36,7 @@ import { motion, useScroll, useTransform } from 'framer-motion'
 
     const firstScale = useTransform(scrollYProgress, [0.198, 0.264, 0.558, 0.627], [1, 0.511, 0.511, 1])
     const firstRadius = useTransform(scrollYProgress, [0.198, 0.264, 0.558, 0.627], [0, 4, 4, 0])
-    const leftSideheight = useTransform(scrollYProgress, [0, 0.058], ['20vh', '100vh'])
+    const leftSideheight = useTransform(scrollYProgress, [0, 0.058], ['40vh', '100vh'])
     const rightSideScale = useTransform(scrollYProgress, [0.047, 0.093], [0, 0.511])
     const rightSideY = useTransform(scrollYProgress, [0.047, 0.093], ['58vh', '0vh'])
     const offsetY = useTransform(scrollYProgress, [0.328, 0.397, 0.461, 0.53], ['0%', '-100%', '-100%', '-200%'])
